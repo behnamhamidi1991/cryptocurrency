@@ -1,0 +1,32 @@
+{
+  "theme_color": "#f69435",
+  "background_color": "#f69435",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "خرید و فروش ارز دیجیتال | صرافی آنلاین",
+  "short_name": "\u06a9\u0631\u06cc\u067e\u062a\u0648\u06a9\u0648\u06cc\u0646",
+  "description": "\u0635\u0631\u0627\u0641\u06cc \u062e\u0631\u06cc\u062f\u060c \u0641\u0631\u0648\u0634 \u0648 \u0633\u0631\u0645\u0627\u06cc\u0647 \u06af\u0632\u0627\u0631\u06cc \u062f\u0631 \u062d\u0648\u0632\u0647 \u0627\u0631\u0632\u0647\u0627\u06cc \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

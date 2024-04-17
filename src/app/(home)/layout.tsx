@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header/Header";
+import "@/app/globals.css";
 
 export const metadata: Metadata = {
+  manifest: "/manifest.json",
   title: "اکسچنج کوین | خرید و فروش ارز دیجیتال | صرافی آنلاین",
   description: "خرید، فروش و سرمایه گذاری ارز دیجیتال | صرافی چنج کن",
   keywords: "صرافی، ارز، ارز دیجیتال، بیت کوین، اتریوم، کریپتو، کوین",
   icons: {
-    icon: ["/webicon.svg?v=4"],
+    icon: ["/icon-192x192.png?v=4"],
   },
 };
 
@@ -16,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fa" dir="rtl">
       <body>
         <Header />
         {children}
