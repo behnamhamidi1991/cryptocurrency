@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import Header from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "اکسچنج کوین | خرید و فروش ارز دیجیتال | صرافی آنلاین",
@@ -16,8 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa-IR" dir="rtl">
-      <body>{children}</body>
+    <html lang="en">
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
