@@ -3,6 +3,7 @@
 `packages & dependencies`
 
 - npm
+- sass
 - react-redux & reduxjs/toolkit
 - react-toastify
 - react-icons
