@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header/Header";
 import "@/app/globals.css";
+import { ReduxProvider } from "@/redux/provider";
 
 export const metadata: Metadata = {
   manifest: "/manifest.json",
@@ -20,8 +21,10 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body>
-        <Header />
-        {children}
+        <ReduxProvider>
+          <Header />
+          {children}
+        </ReduxProvider>
       </body>
     </html>
   );

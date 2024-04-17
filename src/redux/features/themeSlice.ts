@@ -6,7 +6,7 @@ type ThemeState = {
 };
 
 const initialState: ThemeState = {
-  darkMode: false,
+  darkMode: localStorage.getItem("darkMode") === "true",
 };
 
 export const themeSlice = createSlice({
