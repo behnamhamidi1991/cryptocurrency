@@ -56,3 +56,89 @@ export const featured: FeaturedPosts[] = [
     image: image8,
   },
 ];
+
+interface Coin {
+  id: number;
+  abbr: string;
+  title: string;
+  faPrice: number;
+  enPrice: number;
+  rate: number;
+  image: StaticImageData;
+}
+
+import btc from "./assets/images/btc.png";
+import eth from "./assets/images/eth.png";
+import ada from "./assets/images/ada.png";
+import solana from "./assets/images/solana.png";
+import tet from "./assets/images/tet.png";
+import rip from "./assets/images/rip.png";
+import bnb from "./assets/images/bnb.png";
+
+export const coinList: Coin[] = [
+  {
+    id: 1,
+    abbr: "BTC",
+    title: "Bitcoin",
+    enPrice: 61319,
+    faPrice: 4099035980,
+    rate: -2.4,
+    image: btc,
+  },
+  {
+    id: 2,
+    abbr: "ETH",
+    title: "Etherium",
+    enPrice: 2969,
+    faPrice: 199205399,
+    rate: 0.4,
+    image: eth,
+  },
+
+  {
+    id: 3,
+    abbr: "SOL",
+    title: "Solana",
+    enPrice: 136,
+    faPrice: 9151676,
+    rate: 1.4,
+    image: solana,
+  },
+
+  {
+    id: 4,
+    abbr: "XRP",
+    title: "Ripple",
+    enPrice: 0.497613,
+    faPrice: 32905,
+    rate: -1.4,
+    image: rip,
+  },
+  {
+    id: 5,
+    abbr: "ADA",
+    title: "Cardano",
+    enPrice: 0.452129,
+    faPrice: 30322,
+    rate: -0.4,
+    image: ada,
+  },
+  {
+    id: 6,
+    abbr: "USDA",
+    title: "Tether",
+    enPrice: 0.999936,
+    faPrice: 67085,
+    rate: 1.4,
+    image: tet,
+  },
+  {
+    id: 7,
+    abbr: "ETH",
+    title: "Etherium",
+    enPrice: 2969,
+    faPrice: 199205399,
+    rate: -2.4,
+    image: bnb,
+  },
+];
