@@ -1,0 +1,45 @@
+.market {
+  // HEADER
+  margin-top: 90px;
+  .market-header {
+    display: flex;
+    gap: 30px;
+    font-family: "yekan";
+    font-size: 13px;
+    border-bottom: 1px solid var(--link);
+    padding-bottom: 10px;
+    div {
+      padding: 2px 4px;
+      width: 90px;
+      height: fit-content;
+      text-align: center;
+      border-radius: 5px;
+
+      cursor: pointer;
+      &:first-child {
+        background-color: var(--link);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .market {
+    // HEADER
+    .market-header {
+      gap: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .market {
+    // HEADER
+    .market-header {
+      gap: 10px;
+      div {
+        width: fit-content;
+      }
+    }
+  }
+}
