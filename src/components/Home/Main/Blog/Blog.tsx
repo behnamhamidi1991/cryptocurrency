@@ -20,6 +20,19 @@ const Blog = () => {
             <div className="post-image-container">
               <Image src={item.image} alt={item.title} className="post-image" />
             </div>
+            <div className="blog-content">
+              <h3>{item.title}</h3>
+              <p>{item.content.substring(0, 199)} ...</p>
+
+              <div className="blog-details">
+                <div>{item.time}</div>
+                <div>{item.category}</div>
+              </div>
+
+              <div className="readMoreBtnContainer">
+                <button>بیشتر بخوانید</button>
+              </div>
+            </div>
           </div>
         ))}
       </div>

@@ -13,13 +13,50 @@
   .post-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    gap: 7px;
+    gap: 11px;
     margin-top: 10px;
     .post-box {
+      background-color: var(--link);
+
       .post-image-container {
         .post-image {
           width: 100%;
           height: 100%;
+        }
+      }
+      .blog-content {
+        padding: 10px 14px;
+        h3 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 1.8;
+        }
+
+        .blog-details {
+          display: flex;
+          gap: 4px;
+          div {
+            font-size: 11px;
+            background-color: var(--primary-color);
+            padding: 4px 8px;
+            border-radius: 3px;
+          }
+        }
+        .readMoreBtnContainer {
+          button {
+            border: none;
+            background: transparent;
+            font-size: 12px;
+            font-family: "yekan";
+            color: var(--text-color);
+            background-color: var(--primary-color);
+            margin-top: 5px;
+            padding: 3px 7px;
+            border-radius: 6px;
+            font-weight: bold;
+          }
         }
       }
     }
