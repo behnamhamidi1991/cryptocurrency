@@ -8,11 +8,15 @@ import { RiCoinsFill } from "react-icons/ri";
 import { FaWallet } from "react-icons/fa";
 import { MdCardGiftcard } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-right">
+        <button className="hamburgerBtn">
+          <GiHamburgerMenu className="hamburgerIcon" />
+        </button>
         <ul className="nav-links">
           <li className="nav-item">
             <Link href="/" className="nav-link">

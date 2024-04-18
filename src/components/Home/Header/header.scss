@@ -2,7 +2,19 @@
   padding: 20px 10%;
   display: flex;
   justify-content: space-between;
+  position: relative;
   .header-right {
+    .hamburgerBtn {
+      background: transparent;
+      color: #fff;
+      font-size: 25px;
+      border: none;
+      position: absolute;
+      right: 30px;
+      top: 25px;
+      display: none;
+      cursor: pointer;
+    }
     .nav-links {
       display: flex;
       gap: 48px;
@@ -53,6 +65,27 @@
       border-radius: 6px;
       cursor: pointer;
       .header-user {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .header {
+    .header-right {
+      .hamburgerBtn {
+        display: block;
+      }
+      .nav-links {
+        display: none;
+        .nav-item {
+          .nav-link {
+            .nav-link-icon {
+            }
+            p {
+            }
+          }
+        }
       }
     }
   }
