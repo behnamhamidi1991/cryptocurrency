@@ -25,16 +25,6 @@
   src: url("../assets/fonts/vazirBold.woff");
 }
 
-body {
-  background-color: black;
-  color: #fff;
-  font-family: "vazir300";
-}
-
-h1 {
-  font-family: "yekan";
-}
-
 :root {
   --primary-color: #1f2630;
   --secondary-color: #2c3441;
@@ -44,4 +34,26 @@ h1 {
   --text-color: #e6e6e6;
   --hoverLink: #adb4bc;
   --hoverLink2: #717a8b;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: "vazir300";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "yekan";
+}
+
+div,
+span,
+p,
+button {
+  font-family: "vazir300";
 }
