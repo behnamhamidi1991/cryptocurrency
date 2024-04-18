@@ -61,3 +61,27 @@
     }
   }
 }
+
+@media screen and (max-width: 437px) {
+  .main-welcome {
+    .welcome-top {
+      p {
+      }
+    }
+    .main-welcome-btnContainer {
+      .login {
+        .loginIcon {
+        }
+      }
+      .register {
+      }
+    }
+    .welcome-links {
+      flex-direction: column;
+      .welcome-giftLink {
+      }
+      .welcome-awards {
+      }
+    }
+  }
+}
