@@ -1,5 +1,5 @@
 import Welcome from "@/components/Home/Main/Welcome/Welcome";
-import Link from "next/link";
+import "./main.scss";
 import React from "react";
 
 const Home = () => {
