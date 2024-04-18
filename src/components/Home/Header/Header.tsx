@@ -1,5 +1,6 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import "./header.scss";
 import { IoMdHome } from "react-icons/io";
 import { FaChartSimple } from "react-icons/fa6";
@@ -11,13 +12,15 @@ import { FaUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
+  const [menu, setMenu] = useState(false);
+
   return (
     <header className="header">
       <div className="header-right">
-        <button className="hamburgerBtn">
+        <button className="hamburgerBtn" onClick={() => setMenu(!menu)}>
           <GiHamburgerMenu className="hamburgerIcon" />
         </button>
-        <ul className="nav-links">
+        <ul className={menu === true ? "nav-links showMenu" : "nav-links"}>
           <li className="nav-item">
             <Link href="/" className="nav-link">
               <IoMdHome className="nav-link-icon" />
