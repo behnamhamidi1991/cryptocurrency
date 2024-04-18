@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
 import { ReduxProvider } from "@/redux/provider";
-import Header from "@/components/Home/Header/Header";
+import Header from "../../components/Home/Header/Header";
 
 export const metadata: Metadata = {
   manifest: "/manifest.json",
