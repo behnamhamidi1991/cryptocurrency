@@ -5,7 +5,7 @@
   .header-right {
     .nav-links {
       display: flex;
-      gap: 70px;
+      gap: 48px;
       color: var(--text-color);
       .nav-item {
         .nav-link {
@@ -13,6 +13,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          transition: all ease-in-out 0.1s;
           .nav-link-icon {
             font-size: 20px;
           }
@@ -31,15 +32,28 @@
   .header-left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     .gifts {
       display: flex;
       align-items: center;
-      background-color: var(--link-color);
+      background-color: var(--link);
+      padding: 2px 8px;
+      border-radius: 6px;
+      gap: 5px;
+      cursor: pointer;
+      .gift-icon {
+        color: var(--yellow-color);
+      }
     }
     .header-user {
       display: flex;
       align-items: center;
+      background-color: var(--link);
+      padding: 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      .header-user {
+      }
     }
   }
 }

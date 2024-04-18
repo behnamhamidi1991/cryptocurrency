@@ -53,7 +53,7 @@ const Header = () => {
           <MdCardGiftcard className="gift-icon" />
         </div>
         <div className="header-user">
-          <FaUser />
+          <FaUser className="header-user-icon" />
         </div>
       </div>
     </header>
