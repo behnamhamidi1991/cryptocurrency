@@ -1,5 +1,7 @@
 .header {
   padding: 20px 20%;
+  display: flex;
+  justify-content: space-between;
   .header-right {
     .nav-links {
       display: flex;
@@ -27,5 +29,17 @@
     }
   }
   .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .gifts {
+      display: flex;
+      align-items: center;
+      background-color: var(--link-color);
+    }
+    .header-user {
+      display: flex;
+      align-items: center;
+    }
   }
 }

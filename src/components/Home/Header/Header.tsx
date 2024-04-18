@@ -47,7 +47,15 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="header-left"></div>
+      <div className="header-left">
+        <div className="gifts">
+          <p>امتیاز</p>
+          <MdCardGiftcard className="gift-icon" />
+        </div>
+        <div className="header-user">
+          <FaUser />
+        </div>
+      </div>
     </header>
   );
 };
