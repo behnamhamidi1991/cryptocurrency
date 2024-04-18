@@ -34,3 +34,14 @@ body {
 h1 {
   font-family: "yekan";
 }
+
+:root {
+  --primary-color: #1f2630;
+  --secondary-color: #2c3441;
+  --yellow-color: #fbd333;
+  --tomato: #fa5251;
+  --green: #07c28b;
+  --text-color: #e6e6e6;
+  --hoverLink: #adb4bc;
+  --hoverLink2: #717a8b;
+}
