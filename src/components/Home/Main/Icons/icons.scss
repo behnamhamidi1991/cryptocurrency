@@ -1,0 +1,26 @@
+.main-icons-wrapper {
+  margin-top: 30px;
+  .main-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .main-icon-link {
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      //   background-color: var(--link);
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      gap: 9px;
+      .main-icon-link-icon {
+        font-size: 35px;
+        color: var(--yellow-color);
+      }
+      span {
+        font-size: 12px;
+        font-weight: 900;
+      }
+    }
+  }
+}
