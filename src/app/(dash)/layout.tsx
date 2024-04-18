@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header/Header";
 
 export const metadata: Metadata = {
   title: "پنل کاربری | اکسچنج کوین | خرید و فروش ارز دیجیتال | صرافی آنلاین",
